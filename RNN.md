@@ -1,4 +1,4 @@
-# 循环神经网络（RNN）介绍
+# RNN
 
 循环神经网络（Recurrent Neural Networks，简称 RNN）是一种用于处理**序列数据**的神经网络模型。与传统的前馈神经网络（Feedforward Neural Networks）不同，RNN 可以捕捉输入数据之间的**时间依赖性**和**上下文信息**，因此在处理时间序列、文本、语音和视频等数据时表现优异。
 
