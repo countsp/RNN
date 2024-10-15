@@ -1,7 +1,7 @@
 # RNN 
 RNN用于处理时间序列数据：在MLP的基础上，第一次处理的输出给了第二次处理
 
-![Screenshot from 2024-10-14 13-22-21](https://github.com/user-attachments/assets/0bdaefe2-bc4c-4dcc-af06-f648e684a43e)
+![image](https://github.com/user-attachments/assets/225d4ba8-614d-46e2-ac6f-a8119094b5ff)
 
 **缺陷：** 在向后传播时，前面的信息逐渐被忽视，距离越远忘记越多。
 
