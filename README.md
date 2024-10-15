@@ -2,6 +2,8 @@
 
 循环神经网络（Recurrent Neural Networks，简称 RNN）是一种用于处理**序列数据**的神经网络模型。与传统的前馈神经网络（Feedforward Neural Networks）不同，RNN 可以捕捉输入数据之间的**时间依赖性**和**上下文信息**，因此在处理时间序列、文本、语音和视频等数据时表现优异。
 
+![Screenshot from 2024-10-14 13-22-21](https://github.com/user-attachments/assets/f324707e-f18e-4546-a850-2788a81c836c)
+
 ## RNN 的关键特性
 
 1. **循环连接**：RNN 的结构中每个隐藏层的节点不仅接收当前输入的数据，还接收来自**前一个时间步的隐藏状态**。这种递归的连接结构使得 RNN 能够保留之前的信息并用作当前的输入。
@@ -42,7 +44,9 @@ y_t = \sigma(W_y h_t + b_y)
 ## RNN 的局限性
 
 1. **梯度消失和梯度爆炸问题**：在处理长序列时，RNN 可能会遇到梯度消失或爆炸问题，导致模型难以捕捉远距离的信息依赖。
-   
+
+   ![Screenshot from 2024-10-14 13-32-24](https://github.com/user-attachments/assets/adc590ad-c4fb-4d4c-a828-3cde886f7080)
+
 2. **长时依赖性不足**：由于梯度逐渐衰减，标准的 RNN 对于较长的序列捕捉能力较弱，难以记住远距离的依赖信息。
 
 ## 变体模型
